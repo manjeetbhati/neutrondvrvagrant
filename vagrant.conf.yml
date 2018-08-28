@@ -1,0 +1,25 @@
+---
+box: "elastic/ubuntu-16.04-x86_64"
+allinone:
+  short_name: "allinone"
+  host_name: "allinone.devstack.dev"
+  ip: "192.168.123.28"
+  memory: 6144
+  cpus: 2
+  mtu: 1500
+compute1:
+  short_name: "compute1"
+  host_name: "compute1.devstack.dev"
+  ip: "192.168.123.34"
+  memory: 1536
+  cpus: 1
+  mtu: 1500
+network:
+  short_name: "network"
+  host_name: "network.devstack.dev"
+  ip: "192.168.123.35"
+  memory: 1536
+  cpus: 1
+  mtu: 1500
+proxy:
+   gproxy: "add proxy-value"
